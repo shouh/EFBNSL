@@ -721,7 +721,6 @@ resulthepar.csv",header=T,sep = ",")
         }else{
           failure<-try(set.arc(ug,col_list[1],row_list[j])->ug);
           if(('try-error' %in% class(failure))){
-            #print("哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈");
             next;
             
           }else{
